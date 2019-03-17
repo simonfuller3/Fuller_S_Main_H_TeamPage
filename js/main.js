@@ -81,13 +81,13 @@ function changeBio() {
 	//this is to empty the placeholder description, or whoever elses bio is in the cont.
 	bio.innerHTML = '';
 	//simply replacing null with the declared bio variable
-	bio.innerHTML += 'hayText';
+	bio.innerHTML += hayText;
 }
 
 //my own bio, same deal as the first change bio function.
 function changeBio2() {
 	bio.innerHTML = '';
-	bio.innerHTML += 'simText';
+	bio.innerHTML += simText;
 }
 
 
