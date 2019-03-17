@@ -5,6 +5,9 @@ Project Due Date: March 16th
 ## Project Description
 *A portfolio type of site with sections for one another, almost like the first project of semester one wth biographies, but more in depth. What stuff does each person produce? How much stuff does each person produce on an annual basis? Why is that the type of work you're doing? Showcasing what We indivdually are about, really.*
 
+- https://github.com/h-main81423/main_h_fuller_s_teamPage 
+this is the repo that I originally had made and did a bunch of work on. there was a mistake made when I was doing the design work and forgot to commit. We ended up not commiting again until the js was done when working together, and that's when I realized I didn't commit the design work. We really do apologize for this blip, but assure you that the design work was done by me and an equal amount of effort went in on both sides for this project :) 
+
 ## Project tools
 - CSS
 - HTML
