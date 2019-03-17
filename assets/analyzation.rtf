@@ -1,0 +1,20 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \
+Analyze What We Need to Do:\
+\
+We need to make a dynamic team page that only displays one person\'92s information at a time, thus meaning we should provide a placeholder of one slot on the front page that is refreshed when a button is clicked. This should allow users to navigate between both profiles without needing to refresh the page.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qj\partightenfactor0
+\cf0 We are well aware that we will need to start everything out with array and variable declarations for names, pictures, and text changes. We should be able to do this by either document.selection methods or document.createElement methods where needed. We should not have any information of ours yet displayed on the page until a button is clicked, so everything on the HTML document is essentially placeholders and areas to pin to. \
+\
+For the changing of the images on the page, we should simply have to hook into the variable we declared, and make a function that simply changes the source. This is done with \'93variable.src = \'93 and should be pretty much a one liner of code. \
+\
+For changing the names, we have to actually create the elements in the JavaScript document due to not wanting random information all over the HTML document. This means not only declaring the variable, but giving it content and an ID to hook into. We will need to use document.createElement, Element.textContent, and Element.setAttribute. We\'92ll need to make a function that may need to empty the placeholder information out of the name slot before putting the new information in. Something with parent and child nodes should be used here. \
+\
+For the bio\'92s, we need to have the whole paragraph we each want into one variable of the array. The function should probably empty out whatever is inside of the current placeholder text and just place the other information in. We could probably get away with using e.innerHTML for this sort of thing, but we\'92ll have to see.}
